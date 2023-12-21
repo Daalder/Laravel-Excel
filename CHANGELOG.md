@@ -2,10 +2,7 @@
 
 All notable changes to this project will be documented in this file.
 
-## [Unreleased]
-
-### Fixed
-- Bug preventing WithChunkReading from working with multiple sheets when using ToCollection or ToArray   
+Please view https://github.com/SpartnerNL/Laravel-Excel/releases for the most recent changelog
 
 ### Fixed
 - A bug where the package would attempt to create a temporary file in the wrong directory when using a multi-server setup with non-identical storage paths.
@@ -38,7 +35,6 @@ All notable changes to this project will be documented in this file.
 - Fix output of `WithFormatData` in combination with `SkipsEmptyRows` (#3760)
 
 ### Changed
-
 - Cast empty headings to indexed integer (#3646)
 - Adds `isEmptyWhen` to customize is row empty logic. (#3645)
 
